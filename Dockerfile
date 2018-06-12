@@ -63,7 +63,7 @@ RUN set -x \
 	&& touch /opt/mycroft/scripts/logs/mycroft-voice.log \
 	&& touch /opt/mycroft/scripts/logs/mycroft-skills.log \
 	&& touch /opt/mycroft/scripts/logs/mycroft-audio.log \
-	&& /opt/mycroft/msm/msm default \
+	&& mkdir /opt/mycroft/msm/ \
 	&& apt-get install -f \
 	&& apt-get -y autoremove \
 	&& apt-get clean \
