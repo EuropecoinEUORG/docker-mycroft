@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM armhf/ubuntu:latest
 
 ENV TERM linux
 ENV DEBIAN_FRONTEND noninteractive
